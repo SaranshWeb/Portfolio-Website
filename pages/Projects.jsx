@@ -51,10 +51,11 @@ function Projects(){
           <div className='projectCard'>
             <img src="" alt="" />
             <h3>Project1</h3>
-            <p>Discription of project1</p>
+            <p className='projectCardP '>Discription of project1</p>
+            <p className='projectCardP '>Discription of project1</p>
 
             <div className='spanPContainer'>
-                <div className="spanP">
+                <div className="spanP spanProjectP">
                 <p>React</p>
                 <p>TypeScript</p>
                 <p>Tailwind</p>
@@ -62,9 +63,9 @@ function Projects(){
               </div>
             </div>
             
-            <div>
-              <button>github</button>
-              <button>deployed</button>
+            <div className='proj-btn'>
+              <button className='proj-btn-1'>github</button>
+              <button className='proj-btn-2'>deployed</button>
             </div>
           </div>
 
@@ -72,11 +73,21 @@ function Projects(){
           <div className='projectCard'>
             <img src="" alt="" />
             <h3>Project2</h3>
-            <p>Discription of project2</p>
+            <p className='projectCardP'>Discription of project2</p>
+            <p className='projectCardP'>Discription of project2</p>
 
-            <div>
-              <button>github</button>
-              <button>deployed</button>
+            <div className='spanPContainer'>
+                <div className="spanP spanProjectP">
+                <p>React</p>
+                <p>TypeScript</p>
+                <p>Tailwind</p>
+                <p>Next.js</p>
+              </div>
+            </div>
+
+            <div  className='proj-btn'>
+              <button className='proj-btn-1'>github</button>
+              <button className='proj-btn-2'>deployed</button>
             </div>
           </div>
 

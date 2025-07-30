@@ -15,7 +15,7 @@
 function About(){
   return(
     <>
-      <div className="aboutContainer">
+      <div id="about-section" className="aboutContainer">
         <h1>About <span style={{color: "blue"}}>Me</span></h1>
         <p id="aboutP1">I'm a final year Computer Science student passionate about building innovative software solutions. I love turning complex problems into simple, beautiful, and intuitive solutions.</p>
         <div className="cards-container">

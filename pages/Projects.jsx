@@ -41,7 +41,7 @@ function Projects(){
 
   return(
     <>
-      <div className='projects-container'>
+      <div id='proj-section' className='projects-container'>
 
         <h1>My <span style={{color: "blue"}}>Projects</span></h1>
         <p style={{textAlign: "center"}}>Here are some of the projects I've worked on. Each one represents a challenge I've tackled and a skill I've developed.</p>

@@ -21,10 +21,10 @@ function Navbar() {
                 {/* <img src="../src/assets/react.svg" alt="" /> */}
                 <h1>Portfolio</h1>
                 <ul>
-                    <a href="#"><li>Home</li></a>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Projects</li></a>
-                    <a href="#"><li>Contact</li></a>
+                    <a href="#home-section"><li>Home</li></a>
+                    <a href="#about-section"><li>About</li></a>
+                    <a href="#proj-section"><li>Projects</li></a>
+                    <a href="#contact-section"><li>Contact</li></a>
                 </ul>
             </nav>
         </>

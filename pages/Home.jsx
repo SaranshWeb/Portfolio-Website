@@ -78,13 +78,13 @@ function Home() {
   }, []);
 
   return (
-    <div className="home-container">
+    <div id='home-section' className="home-container">
       <h1><span ref={el}></span></h1>
       <h3>Computer Science Student</h3>
       <p>Passionate about creating innovative software solutions and exploring the intersection of technology and human experience.</p>
       <div className="button-container">
-        <button>View My Work</button>
-        <button>Get In Touch</button>
+        <a href="#proj-section"><button>View My Work</button></a>
+        <a href="#contact-section"><button>Get In Touch</button></a>
       </div>
     </div>
   );

@@ -47,7 +47,7 @@ const handleClick1 = () => {
 
   return(
     <>
-    <div className="contact-container">
+    <div id='contact-section' className="contact-container">
       <h1>Get In <span style={{color:"blue"}}>Touch</span></h1>
       <p style={{textAlign: "center", fontSize:"20px"}}>I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and innovation.</p>
 
